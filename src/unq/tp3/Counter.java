@@ -3,13 +3,13 @@ package unq.tp3;
 import java.util.ArrayList;
 
 public class Counter {
+	//Atributos
 	private ArrayList<Integer> lista;
-	
-	
+	//Constructor
 	public Counter() {
 		this.setLista(new ArrayList<Integer>());
 	}
-
+	//Gets y sets
 	public void setLista(ArrayList<Integer> lista) {
 		this.lista = lista;
 	}
@@ -17,7 +17,7 @@ public class Counter {
 	public ArrayList<Integer> getLista() {
 		return lista;
 	}
-	
+	//Metodos
 	public void agregarNumero(Integer numero) {
 		this.lista.add(numero);
 	}
