@@ -16,7 +16,7 @@ class MultioperadorTestCase {
 	multioperador.agregarNumero(10);
 	multioperador.agregarNumero(5);	
 	}	
-	//Test Sumar
+	//Test
 	@Test
 	public void testSumar() { 
 		int resultadoDeSuma = multioperador.sumar();	

@@ -16,26 +16,19 @@ public class CounterTestCase {
 		counter.agregarNumero(40);
 		counter.agregarNumero(25);
     }
- 
-    /**
-     * Verificar la cantidad de pares
-     */
+	//Test
     @Test
     public void testNumerosPares() { 
     	int cantidadDeNumerosPares = counter.cantidadDePares();	
     	assertEquals(cantidadDeNumerosPares, 2);
     }
-    /**
-     * Verificar la cantidad de impares
-     */
+   
     @Test
     public void testNumerosImpares() {  	
     	int cantidadDeNumerosImpares = counter.cantidadDeImpares();			 
     	assertEquals(cantidadDeNumerosImpares, 3);
     }
-    /**
-     * Verificar la cantidad de multiplos
-     */
+
     @Test
     public void testMultiplos() {
     	int cantidadDeMultiplosDe2 = counter.cantidadDeMultiplosDe(2);

@@ -33,13 +33,13 @@ class RectanguloTestCase {
 	}
 
 	@Test
-	public void esVertical() {
+	public void testDeVertical() {
 		assertEquals(rectangulo1.esVertical(), false);
 		assertEquals(rectangulo2.esVertical(), true);
 	}
 	
 	@Test
-	public void esHorizontal() {
+	public void testDeHorizontal() {
 		assertEquals(rectangulo1.esHorizontal(), true);
 		assertEquals(rectangulo2.esHorizontal(), false);
 	}
