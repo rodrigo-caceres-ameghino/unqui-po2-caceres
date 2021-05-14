@@ -8,8 +8,8 @@ public class Persona {
 	private LocalDate fechaDeNacimiento;
 	//Constructor
 	public Persona(String nombre, LocalDate fechaDeNacimiento) {
-		this.nombre = nombre;
-		this.fechaDeNacimiento = fechaDeNacimiento;
+		this.setNombre(nombre);
+		this.setFechaDeNacimiento(fechaDeNacimiento);
 	}
 	//Gets y sets
 	public void setNombre(String nombre) {
